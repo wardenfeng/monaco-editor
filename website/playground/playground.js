@@ -49,7 +49,7 @@ function load() {
 		var WIDTH = window.innerWidth - 2 * GLOBAL_PADDING;
 		var HEIGHT = window.innerHeight;
 
-		var TITLE_HEIGHT = 110;
+		var TITLE_HEIGHT = 0;
 		var FOOTER_HEIGHT = 80;
 		var TABS_HEIGHT = 20;
 		var INNER_PADDING = 20;
