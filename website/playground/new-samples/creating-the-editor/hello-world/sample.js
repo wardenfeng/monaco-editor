@@ -1,4 +1,4 @@
-var canvas = document.getElementById("glcanvas");
+var canvas = document.getElementById("renderCanvas");
 var view3D = this.view3D = new feng3d.View3D(canvas);
 //初始化颜色材质
 var colorMaterial = new feng3d.ColorMaterial();
