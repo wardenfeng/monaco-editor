@@ -2,6 +2,22 @@
 
 <head>
 	<script type="text/javascript" src="../lib/feng3d.js"></script>
+	<style>
+		html,
+		body {
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		#renderCanvas {
+			width: 100%;
+			height: 100%;
+			touch-action: none;
+		}
+	</style>
 	<script type="text/javascript">
 		var geval = eval;
 
@@ -42,11 +58,7 @@
 </head>
 
 <body>
-	<canvas id="glcanvas" width="640" height="480" style="
-    position: absolute;
-    left: 0px;
-    top: 40px;
-">
+	<canvas id="renderCanvas"></canvas>
 </body>
 
 </html>
